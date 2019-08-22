@@ -1,0 +1,147 @@
+.form-box button {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-family:"Poppins", sans-serif;
+    cursor:pointer;
+    font-size:15px;
+}
+.pvw-title span {
+  display: none;
+}
+.pvw-title:after {
+  content: 'whatever it is you want to add';
+}
+body{
+	background:#96c9dc;
+	margin: auto;
+}
+.form-box{
+	margin:0 auto;
+	display:table;
+	width:30%;
+}
+h4{
+	text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 100;
+    background: #86B3C4;
+    display: table;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+#my_data{
+	font-family:'Poppins', sans-serif;
+	font-style: italic;
+    text-align: center;
+}
+.form-box input[type="text"], .form-box input[type="password"]{
+	width:100%;
+	padding:20px;
+	margin-bottom:-18px;
+	border:none;
+	box-sizing:border-box;
+	font-family: 'Poppins',sans-serif;
+}
+.form-box input[type="text"]:focus, .form-box input[type="password"]:focus{
+	outline:none;
+	background-color:#fafafa;
+}
+.form-box button[type=submit]:focus, .form-box input[type="button"]:focus{
+	outline:none;
+} 
+.form-box input[type="button"]{
+	width: 100%;
+    padding: 20px;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login-part, .register-part{
+	text-align:center;
+	font-family:'Poppins', sans-serif;
+	color:white;
+	font-size: 19px;
+    font-style: italic;
+}
+.nav-bar button{
+	border:none;
+	padding:20px;
+	font-family:"Poppins",sans-serif;
+	cursor:pointer;
+}
+.input-box{
+	width:30%;
+	margin:0 auto;
+}
+.input-box input[type="text"], .input-box input[type="button"]{
+	width:100%;
+	padding:20px;
+	border:none;
+	font-family:'Poppins', sans-serif;
+}
+#my_data2 table{
+	margin:0 auto;
+	border-collapse:collapse;
+}
+#my_data2 table, #my_data2 th, #my_data2 td{
+	border:1px solid white;
+	padding:8px;
+}
+#my_data2{
+	font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    text-align: center;
+    background: #86B3C4;
+    display: table;
+    margin: 30px auto;
+    padding: 25px;
+}
+#my_data2 th{
+	font-weight:normal;
+	font-style:italic;
+}
+#my_data2 td{
+	font-size:14px;
+}
+#my_msg{
+	font-family:'Poppins',sans-serif;
+	text-align:center;
+	color:red;
+}
+input[type="text"]:focus, input[type="button"]:focus{
+	outline: none;
+}
+@media(max-width: 575px){
+	.form-box {
+    margin: 0 auto;
+    display: table;
+    width: 78%;
+}
+.logo {
+    margin: 0 auto;
+    display: table;
+    width: 58% !important;
+}
+h4 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 100;
+    background: #86B3C4;
+    display: table;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+}
+.logo{
+	margin: 0 auto;
+	display: table;
+	width: 20%;
+}
